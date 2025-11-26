@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-26T11:50:43 GMT" name="Default suite" finished-at="2025-11-26T11:50:45 GMT" duration-ms="2328">
+  <suite started-at="2025-11-26T12:33:32 GMT" name="Default suite" finished-at="2025-11-26T12:33:33 GMT" duration-ms="1560">
     <groups>
     </groups>
-    <test started-at="2025-11-26T11:50:43 GMT" name="Default test" finished-at="2025-11-26T11:50:45 GMT" duration-ms="2328">
-      <class name="day1_project.httpRequest_post2">
-        <test-method signature="createUsers()[pri:1, instance:day1_project.httpRequest_post2@5149d738]" started-at="2025-11-26T11:50:43 GMT" name="createUsers" finished-at="2025-11-26T11:50:45 GMT" duration-ms="2289" status="PASS">
+    <test started-at="2025-11-26T12:33:32 GMT" name="Default test" finished-at="2025-11-26T12:33:33 GMT" duration-ms="1560">
+      <class name="day1_project.tc04_deleterequest_DetailsFetchedDeletedAndSavedBackToPropertiesFile">
+        <test-method signature="deleteUser()[pri:0, instance:day1_project.tc04_deleterequest_DetailsFetchedDeletedAndSavedBackToPropertiesFile@5149d738]" started-at="2025-11-26T12:33:32 GMT" name="deleteUser" finished-at="2025-11-26T12:33:33 GMT" duration-ms="1524" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUsers -->
-      </class> <!-- day1_project.httpRequest_post2 -->
+        </test-method> <!-- deleteUser -->
+      </class> <!-- day1_project.tc04_deleterequest_DetailsFetchedDeletedAndSavedBackToPropertiesFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
