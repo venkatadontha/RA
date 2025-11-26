@@ -1,0 +1,14 @@
+{
+  "students": 
+  [
+  	{
+      "name": "Gowtham",
+      "phone": "07500575005",
+      "courses": [
+        			"java",
+        			"Selenium"
+      			]
+    }
+  ]
+ }
+ 
