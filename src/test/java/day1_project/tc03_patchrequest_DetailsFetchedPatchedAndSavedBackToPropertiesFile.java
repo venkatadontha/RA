@@ -9,7 +9,7 @@ import java.util.Properties;
 
 import org.testng.annotations.Test;
 
-public class tc03_patchrequest_DetailsFetchedUpdatedAndSavedBackToPropertiesFile {
+public class tc03_patchrequest_DetailsFetchedPatchedAndSavedBackToPropertiesFile {
 	
 	 @Test
 	    void patchUser() {

@@ -1,0 +1,40 @@
+{
+	"book": [
+		{
+			"author" : "Robert C. Martin",
+			"category" : "Software Engineering / Coding Best Practices",
+			"price" : "40",
+			"title" : "Clean Code"
+		},
+		{
+			"author" : "Glenford J. Myers",
+			"category" : "Software Testing / QA Fundamentals",
+			"price" : "35",
+			"title" : "The Art of Software Testing"
+		},
+		{
+			"author" : "Jez Humble, David Farley",
+			"category" : "DevOps / CI-CD / Automation",
+			"price" : "50",
+			"title" : "Continuous Delivery"
+		},
+		{
+			"author" : "Unmesh Gundecha",
+			"category" : "Test Automation / Selenium",
+			"price" : "30",
+			"title" : "Selenium WebDriver 3 Practical Guide"
+		},
+		{
+			"author" : "Cem Kaner, James Bach, Bret Pettichord",
+			"category" : "QA / Test Strategy",
+			"price" : "25",
+			"title" : "Lessons Learned in Software Testing"
+		},
+		{
+			"author" : "Lisa Crispin, Janet Gregory",
+			"category" : "Agile QA / Automation",
+			"price" : "40",
+			"title" : "Agile Testing: A Practical Guide"
+		}
+	]
+}
