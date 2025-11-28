@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day4_project.JsonServerApiTest">
+      <class name="day2_project.post_01_hashmap">
         <methods>
-          <include name="getBooks"/>
           <include name="setup"/>
+          <include name="teardown"/>
+          <include name="testPostMethodUsingHashMap"/>
         </methods>
-      </class> <!-- day4_project.JsonServerApiTest -->
+      </class> <!-- day2_project.post_01_hashmap -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,49 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Kishore",
+      "phone": "07521303451",
+      "courses": [
+        "java",
+        "Selenium"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Raja",
+      "phone": "07521303452",
+      "courses": [
+        "Python",
+        "Pytest"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Venkata",
+      "phone": "07521303453",
+      "courses": [
+        "Rest Assured",
+        "Playwright"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Dontha",
+      "phone": "07521303454",
+      "courses": [
+        "Postman",
+        "Selenium"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Kiran",
+      "phone": "07521303455",
+      "courses": [
+        "Azure",
+        "AWS"
+      ]
+    }
+  ]
+}

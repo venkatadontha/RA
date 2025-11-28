@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+
+    <test name="MyTests">
+        <classes>
+        
+            <class name="day2_project.JsonServerApiTest" />
+            <class name="day2_project.JsonServerManager" />
+            
+            <class name="day2_project.pojo_POSTRequest" />
+            
+            <class name="day2_project.post_01_hashmap" />
+            <class name="day2_project.post_02_jsonObject" />
+            <class name="day2_project.post_03_POJOClass" />
+            <class name="day2_project.post_04_ExternalJSONFile" />
+            
+            
+        </classes>
+    </test>
+
+</suite>

@@ -6,7 +6,7 @@ import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
-public class post_02_jsonObject {
+public class post_02_jsonObject extends JsonServerApiTest{
 
 		
 		@Test

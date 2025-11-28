@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+
+    <test name="MyTests">
+        <classes>
+        
+            <class name="day1_project.httpRequest_get" />
+			<class name="day1_project.httpRequest_post" />
+			<class name="day1_project.httpRequest_post2" />
+			<class name="day1_project.tc01_postrequest_DetailsSavedToPropertiesFile" />
+			<class name="day1_project.tc02_putrequest_DetailsFetchedUpdatedAndSavedBackToPropertiesFile" />
+			<class name="day1_project.tc03_patchrequest_DetailsFetchedPatchedAndSavedBackToPropertiesFile" />
+			<class name="day1_project.tc04_deleterequest_DetailsFetchedDeletedAndSavedBackToPropertiesFile" />            
+            
+        </classes>
+    </test>
+
+</suite>

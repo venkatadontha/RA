@@ -6,7 +6,7 @@ import java.util.HashMap;
 import org.testng.annotations.Test;
 
 
-public class post_01_hashmap {
+public class post_01_hashmap extends JsonServerApiTest{
 	
 	@Test
 	void testPostMethodUsingHashMap()

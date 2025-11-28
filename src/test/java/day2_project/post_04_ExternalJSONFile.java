@@ -9,7 +9,7 @@ import org.json.JSONObject;
 import org.json.JSONTokener;
 import org.testng.annotations.Test;
 
-public class post_04_ExternalJSONFile {
+public class post_04_ExternalJSONFile extends JsonServerApiTest{
 	
 	@Test
 	void testPostMethodUsingExternalJSONFile() throws FileNotFoundException

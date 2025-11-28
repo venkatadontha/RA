@@ -9,49 +9,16 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">MySuite</th></tr>
-<tr><td><a href="#t0">MyTests</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">15,067</td><td></td><td></td></tr>
+<tr><td><a href="#t0">MyTests</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3,027</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">MySuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">MyTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">day3_project.captureCookies</td><td><a href="#m0">testCookies</a></td><td rowspan="1">1764288724951</td><td rowspan="1">3313</td></tr><tr><th colspan="4">MyTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">day3_project.PathAndQueryParameters</td><td><a href="#m1">PathQueryParams</a></td><td rowspan="1">1764288738649</td><td rowspan="1">1321</td></tr><tr class="passedodd"><td rowspan="1">day3_project.captureHeaders</td><td><a href="#m2">testCookies</a></td><td rowspan="1">1764288728274</td><td rowspan="1">1860</td></tr><tr class="passedeven"><td rowspan="1">day3_project.getAllCookieInfo</td><td><a href="#m3">getSingleCokkieInfo</a></td><td rowspan="1">1764288730136</td><td rowspan="1">769</td></tr><tr class="passedodd"><td rowspan="1">day3_project.getAllHeadersInfo</td><td><a href="#m4">getallHeaders</a></td><td rowspan="1">1764288730908</td><td rowspan="1">769</td></tr><tr class="passedeven"><td rowspan="1">day3_project.getSingleCookieInfo</td><td><a href="#m5">getSingleCokkieInfo</a></td><td rowspan="1">1764288731680</td><td rowspan="1">785</td></tr><tr class="passedodd"><td rowspan="1">day3_project.getSingleHeader</td><td><a href="#m6">getSingleHeaderInfo</a></td><td rowspan="1">1764288732467</td><td rowspan="1">769</td></tr><tr class="passedeven"><td rowspan="1">day3_project.loggingDemo_AllInfo</td><td><a href="#m7">logAllInfo</a></td><td rowspan="1">1764288733237</td><td rowspan="1">1364</td></tr><tr class="passedodd"><td rowspan="1">day3_project.loggingDemo_onlyCookies</td><td><a href="#m8">logOnlyCookies</a></td><td rowspan="1">1764288734607</td><td rowspan="1">1349</td></tr><tr class="passedeven"><td rowspan="1">day3_project.loggingDemo_onlyHeaders</td><td><a href="#m9">logOnlyHeaders</a></td><td rowspan="1">1764288735958</td><td rowspan="1">1331</td></tr><tr class="passedodd"><td rowspan="1">day3_project.loggingDemo_responseBody</td><td><a href="#m10">logBodyResponse</a></td><td rowspan="1">1764288737293</td><td rowspan="1">1351</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">MySuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">MyTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">day1_project.httpRequest_get</td><td><a href="#m0">getUsers</a></td><td rowspan="1">1764295125258</td><td rowspan="1">2115</td></tr><tr class="passedodd"><td rowspan="1">day1_project.httpRequest_post</td><td><a href="#m1">createUsers</a></td><td rowspan="1">1764295127377</td><td rowspan="1">337</td></tr><tr class="passedeven"><td rowspan="1">day1_project.httpRequest_post2</td><td><a href="#m2">createUsers</a></td><td rowspan="1">1764295127715</td><td rowspan="1">131</td></tr><tr class="passedodd"><td rowspan="1">day1_project.tc01_postrequest_DetailsSavedToPropertiesFile</td><td><a href="#m3">createUsers</a></td><td rowspan="1">1764295127848</td><td rowspan="1">136</td></tr><tr class="passedeven"><td rowspan="1">day1_project.tc02_putrequest_DetailsFetchedUpdatedAndSavedBackToPropertiesFile</td><td><a href="#m4">updateUser</a></td><td rowspan="1">1764295127986</td><td rowspan="1">90</td></tr><tr class="passedodd"><td rowspan="1">day1_project.tc03_patchrequest_DetailsFetchedPatchedAndSavedBackToPropertiesFile</td><td><a href="#m5">patchUser</a></td><td rowspan="1">1764295128078</td><td rowspan="1">66</td></tr><tr class="passedeven"><td rowspan="1">day1_project.tc04_deleterequest_DetailsFetchedDeletedAndSavedBackToPropertiesFile</td><td><a href="#m6">deleteUser</a></td><td rowspan="1">1764295128146</td><td rowspan="1">95</td></tr></tbody>
 </table>
-<h2>MyTests</h2><h3 id="m0">day3_project.captureCookies#testCookies</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
-Expected cookie &quot;AEC&quot; was not &quot;AaJma5v_3QiF9ujwNoPB0o7U1kVMJ4CYGEOrv8XSCs7xCmeRHUilD80beA&quot;, was &quot;AaJma5vw-k80Qn0DYU3EvQWkili0RNYehw3WKJrD2i6ogk623MRPcFcYdQ&quot;.
-
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.cookie(ResponseSpecificationImpl.groovy:229)
-	at io.restassured.specification.ResponseSpecification$cookie$0.callCurrent(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:194)
-	at io.restassured.internal.ResponseSpecificationImpl.cookie(ResponseSpecificationImpl.groovy:250)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.cookie(ValidatableResponseOptionsImpl.java:158)
-	at day3_project.captureCookies.testCookies(captureCookies.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">day3_project.PathAndQueryParameters#PathQueryParams</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">day3_project.captureHeaders#testCookies</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">day3_project.getAllCookieInfo#getSingleCokkieInfo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">day3_project.getAllHeadersInfo#getallHeaders</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">day3_project.getSingleCookieInfo#getSingleCokkieInfo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">day3_project.getSingleHeader#getSingleHeaderInfo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">day3_project.loggingDemo_AllInfo#logAllInfo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">day3_project.loggingDemo_onlyCookies#logOnlyCookies</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">day3_project.loggingDemo_onlyHeaders#logOnlyHeaders</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">day3_project.loggingDemo_responseBody#logBodyResponse</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MyTests</h2><h3 id="m0">day1_project.httpRequest_get#getUsers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">day1_project.httpRequest_post#createUsers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">day1_project.httpRequest_post2#createUsers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">day1_project.tc01_postrequest_DetailsSavedToPropertiesFile#createUsers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">day1_project.tc02_putrequest_DetailsFetchedUpdatedAndSavedBackToPropertiesFile#updateUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">day1_project.tc03_patchrequest_DetailsFetchedPatchedAndSavedBackToPropertiesFile#patchUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">day1_project.tc04_deleterequest_DetailsFetchedDeletedAndSavedBackToPropertiesFile#deleteUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -1,147 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-28T00:12:04 GMT" name="MySuite" finished-at="2025-11-28T00:12:19 GMT" duration-ms="15067">
+  <suite started-at="2025-11-28T01:58:45 GMT" name="MySuite" finished-at="2025-11-28T01:58:48 GMT" duration-ms="3027">
     <groups>
     </groups>
-    <test started-at="2025-11-28T00:12:04 GMT" name="MyTests" finished-at="2025-11-28T00:12:19 GMT" duration-ms="15067">
-      <class name="day3_project.loggingDemo_AllInfo">
-        <test-method signature="logAllInfo()[pri:0, instance:day3_project.loggingDemo_AllInfo@68c9133c]" started-at="2025-11-28T00:12:13 GMT" name="logAllInfo" finished-at="2025-11-28T00:12:14 GMT" duration-ms="1364" status="PASS">
+    <test started-at="2025-11-28T01:58:45 GMT" name="MyTests" finished-at="2025-11-28T01:58:48 GMT" duration-ms="3027">
+      <class name="day1_project.tc02_putrequest_DetailsFetchedUpdatedAndSavedBackToPropertiesFile">
+        <test-method signature="updateUser()[pri:0, instance:day1_project.tc02_putrequest_DetailsFetchedUpdatedAndSavedBackToPropertiesFile@72035809]" started-at="2025-11-28T01:58:47 GMT" name="updateUser" finished-at="2025-11-28T01:58:48 GMT" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logAllInfo -->
-      </class> <!-- day3_project.loggingDemo_AllInfo -->
-      <class name="day3_project.loggingDemo_onlyHeaders">
-        <test-method signature="logOnlyHeaders()[pri:0, instance:day3_project.loggingDemo_onlyHeaders@5e2c3d18]" started-at="2025-11-28T00:12:15 GMT" name="logOnlyHeaders" finished-at="2025-11-28T00:12:17 GMT" duration-ms="1331" status="PASS">
+        </test-method> <!-- updateUser -->
+      </class> <!-- day1_project.tc02_putrequest_DetailsFetchedUpdatedAndSavedBackToPropertiesFile -->
+      <class name="day1_project.httpRequest_post2">
+        <test-method signature="createUsers()[pri:1, instance:day1_project.httpRequest_post2@72cc7e6f]" started-at="2025-11-28T01:58:47 GMT" name="createUsers" finished-at="2025-11-28T01:58:47 GMT" duration-ms="131" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logOnlyHeaders -->
-      </class> <!-- day3_project.loggingDemo_onlyHeaders -->
-      <class name="day3_project.getAllHeadersInfo">
-        <test-method signature="getallHeaders()[pri:0, instance:day3_project.getAllHeadersInfo@606e4010]" started-at="2025-11-28T00:12:10 GMT" name="getallHeaders" finished-at="2025-11-28T00:12:11 GMT" duration-ms="769" status="PASS">
+        </test-method> <!-- createUsers -->
+      </class> <!-- day1_project.httpRequest_post2 -->
+      <class name="day1_project.httpRequest_get">
+        <test-method signature="getUsers()[pri:0, instance:day1_project.httpRequest_get@53fb3dab]" started-at="2025-11-28T01:58:45 GMT" name="getUsers" finished-at="2025-11-28T01:58:47 GMT" duration-ms="2115" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getallHeaders -->
-      </class> <!-- day3_project.getAllHeadersInfo -->
-      <class name="day3_project.loggingDemo_onlyCookies">
-        <test-method signature="logOnlyCookies()[pri:0, instance:day3_project.loggingDemo_onlyCookies@7a35b0f5]" started-at="2025-11-28T00:12:14 GMT" name="logOnlyCookies" finished-at="2025-11-28T00:12:15 GMT" duration-ms="1349" status="PASS">
+        </test-method> <!-- getUsers -->
+      </class> <!-- day1_project.httpRequest_get -->
+      <class name="day1_project.tc04_deleterequest_DetailsFetchedDeletedAndSavedBackToPropertiesFile">
+        <test-method signature="deleteUser()[pri:0, instance:day1_project.tc04_deleterequest_DetailsFetchedDeletedAndSavedBackToPropertiesFile@18271936]" started-at="2025-11-28T01:58:48 GMT" name="deleteUser" finished-at="2025-11-28T01:58:48 GMT" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logOnlyCookies -->
-      </class> <!-- day3_project.loggingDemo_onlyCookies -->
-      <class name="day3_project.captureHeaders">
-        <test-method signature="testCookies()[pri:0, instance:day3_project.captureHeaders@909217e]" started-at="2025-11-28T00:12:08 GMT" name="testCookies" finished-at="2025-11-28T00:12:10 GMT" duration-ms="1860" status="PASS">
+        </test-method> <!-- deleteUser -->
+      </class> <!-- day1_project.tc04_deleterequest_DetailsFetchedDeletedAndSavedBackToPropertiesFile -->
+      <class name="day1_project.httpRequest_post">
+        <test-method signature="createUsers()[pri:1, instance:day1_project.httpRequest_post@5f049ea1]" started-at="2025-11-28T01:58:47 GMT" name="createUsers" finished-at="2025-11-28T01:58:47 GMT" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCookies -->
-      </class> <!-- day3_project.captureHeaders -->
-      <class name="day3_project.PathAndQueryParameters">
-        <test-method signature="PathQueryParams()[pri:0, instance:day3_project.PathAndQueryParameters@cc43f62]" started-at="2025-11-28T00:12:18 GMT" name="PathQueryParams" finished-at="2025-11-28T00:12:19 GMT" duration-ms="1321" status="PASS">
+        </test-method> <!-- createUsers -->
+      </class> <!-- day1_project.httpRequest_post -->
+      <class name="day1_project.tc01_postrequest_DetailsSavedToPropertiesFile">
+        <test-method signature="createUsers()[pri:1, instance:day1_project.tc01_postrequest_DetailsSavedToPropertiesFile@5afa3c9]" started-at="2025-11-28T01:58:47 GMT" name="createUsers" finished-at="2025-11-28T01:58:47 GMT" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PathQueryParams -->
-      </class> <!-- day3_project.PathAndQueryParameters -->
-      <class name="day3_project.getAllCookieInfo">
-        <test-method signature="getSingleCokkieInfo()[pri:0, instance:day3_project.getAllCookieInfo@18271936]" started-at="2025-11-28T00:12:10 GMT" name="getSingleCokkieInfo" finished-at="2025-11-28T00:12:10 GMT" duration-ms="769" status="PASS">
+        </test-method> <!-- createUsers -->
+      </class> <!-- day1_project.tc01_postrequest_DetailsSavedToPropertiesFile -->
+      <class name="day1_project.tc03_patchrequest_DetailsFetchedPatchedAndSavedBackToPropertiesFile">
+        <test-method signature="patchUser()[pri:0, instance:day1_project.tc03_patchrequest_DetailsFetchedPatchedAndSavedBackToPropertiesFile@909217e]" started-at="2025-11-28T01:58:48 GMT" name="patchUser" finished-at="2025-11-28T01:58:48 GMT" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getSingleCokkieInfo -->
-      </class> <!-- day3_project.getAllCookieInfo -->
-      <class name="day3_project.getSingleCookieInfo">
-        <test-method signature="getSingleCokkieInfo()[pri:0, instance:day3_project.getSingleCookieInfo@8458f04]" started-at="2025-11-28T00:12:11 GMT" name="getSingleCokkieInfo" finished-at="2025-11-28T00:12:12 GMT" duration-ms="785" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSingleCokkieInfo -->
-      </class> <!-- day3_project.getSingleCookieInfo -->
-      <class name="day3_project.loggingDemo_responseBody">
-        <test-method signature="logBodyResponse()[pri:0, instance:day3_project.loggingDemo_responseBody@2cb4893b]" started-at="2025-11-28T00:12:17 GMT" name="logBodyResponse" finished-at="2025-11-28T00:12:18 GMT" duration-ms="1351" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logBodyResponse -->
-      </class> <!-- day3_project.loggingDemo_responseBody -->
-      <class name="day3_project.getSingleHeader">
-        <test-method signature="getSingleHeaderInfo()[pri:0, instance:day3_project.getSingleHeader@48075da3]" started-at="2025-11-28T00:12:12 GMT" name="getSingleHeaderInfo" finished-at="2025-11-28T00:12:13 GMT" duration-ms="769" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getSingleHeaderInfo -->
-      </class> <!-- day3_project.getSingleHeader -->
-      <class name="day3_project.captureCookies">
-        <test-method signature="testCookies()[pri:0, instance:day3_project.captureCookies@7bba5817]" started-at="2025-11-28T00:12:04 GMT" name="testCookies" finished-at="2025-11-28T00:12:08 GMT" duration-ms="3313" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[1 expectation failed.
-Expected cookie "AEC" was not "AaJma5v_3QiF9ujwNoPB0o7U1kVMJ4CYGEOrv8XSCs7xCmeRHUilD80beA", was "AaJma5vw-k80Qn0DYU3EvQWkili0RNYehw3WKJrD2i6ogk623MRPcFcYdQ".
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected cookie "AEC" was not "AaJma5v_3QiF9ujwNoPB0o7U1kVMJ4CYGEOrv8XSCs7xCmeRHUilD80beA", was "AaJma5vw-k80Qn0DYU3EvQWkili0RNYehw3WKJrD2i6ogk623MRPcFcYdQ".
-
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
-at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-at io.restassured.internal.ResponseSpecificationImpl.cookie(ResponseSpecificationImpl.groovy:229)
-at io.restassured.specification.ResponseSpecification$cookie$0.callCurrent(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:194)
-at io.restassured.internal.ResponseSpecificationImpl.cookie(ResponseSpecificationImpl.groovy:250)
-at io.restassured.internal.ValidatableResponseOptionsImpl.cookie(ValidatableResponseOptionsImpl.java:158)
-at day3_project.captureCookies.testCookies(captureCookies.java:21)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCookies -->
-      </class> <!-- day3_project.captureCookies -->
+        </test-method> <!-- patchUser -->
+      </class> <!-- day1_project.tc03_patchrequest_DetailsFetchedPatchedAndSavedBackToPropertiesFile -->
     </test> <!-- MyTests -->
   </suite> <!-- MySuite -->
 </testng-results>
