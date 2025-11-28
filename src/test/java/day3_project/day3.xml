@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+
+    <test name="MyTests">
+        <classes>
+        
+            <class name="day3_project.captureCookies" />
+            <class name="day3_project.captureHeaders" />
+            <class name="day3_project.getAllCookieInfo" />
+            <class name="day3_project.getAllHeadersInfo" />
+            <class name="day3_project.getSingleCookieInfo" />
+            <class name="day3_project.getSingleHeader" />
+            <class name="day3_project.loggingDemo_AllInfo" />
+            <class name="day3_project.loggingDemo_onlyCookies" />
+            <class name="day3_project.loggingDemo_onlyHeaders" />
+            <class name="day3_project.loggingDemo_responseBody" />
+            <class name="day3_project.PathAndQueryParameters" />
+            
+            
+        </classes>
+    </test>
+
+</suite>

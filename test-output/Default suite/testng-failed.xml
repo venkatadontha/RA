@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day4_project.tc_05_parsingJSONResponseData">
+      <class name="day4_project.JsonServerApiTest">
         <methods>
-          <include name="testJSONResponse"/>
+          <include name="getBooks"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- day4_project.tc_05_parsingJSONResponseData -->
+      </class> <!-- day4_project.JsonServerApiTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

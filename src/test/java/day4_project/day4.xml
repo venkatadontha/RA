@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+
+    <test name="MyTests">
+        <classes>
+        
+            <class name="day4_project.JsonServerManager" />
+            <class name="day4_project.JsonServerApiTest" />
+            
+            <class name="day4_project.tc_01_parsingJSONResponseData" />
+            <class name="day4_project.tc_02_parsingJSONResponseData" />
+            <class name="day4_project.tc_03_parsingJSONResponseData" />
+            <class name="day4_project.tc_04_parsingJSONResponseData" />
+            <class name="day4_project.tc_05_parsingJSONResponseData" />
+            
+        </classes>
+    </test>
+
+</suite>

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-MySuite" class="navigator-link">
+              <span class="suite-name border-failed">MySuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\dvrki\AppData\Local\Temp\testng-eclipse--1551933395\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-MySuite" class="navigator-link ">
+                    <span>C:\Users\dvrki\Automation\RestAssured\project1RestAssured\src\test\java\day3_project\day3.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-MySuite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-MySuite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-MySuite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-MySuite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-MySuite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-MySuite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,21 +92,80 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MySuite" class="hide-methods failed suite-MySuite"> (hide)</a> <!-- hide-methods failed suite-MySuite -->
+                      <a href="#" panel-name="suite-MySuite" class="show-methods failed suite-MySuite"> (show)</a> <!-- show-methods failed suite-MySuite -->
+                    </span>
+                    <div class="method-list-content failed suite-MySuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="day3_project.captureCookies" class="method navigator-link" hash-for-method="testCookies">testCookies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MySuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-MySuite" class="hide-methods passed suite-MySuite"> (hide)</a> <!-- hide-methods passed suite-MySuite -->
+                      <a href="#" panel-name="suite-MySuite" class="show-methods passed suite-MySuite"> (show)</a> <!-- show-methods passed suite-MySuite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-MySuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="day4_project.tc_05_parsingJSONResponseData" class="method navigator-link" hash-for-method="testJSONResponse">testJSONResponse</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-MySuite" title="day3_project.PathAndQueryParameters" class="method navigator-link" hash-for-method="PathQueryParams">PathQueryParams</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="day3_project.getSingleCookieInfo" class="method navigator-link" hash-for-method="getSingleCokkieInfo">getSingleCokkieInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="day3_project.getAllCookieInfo" class="method navigator-link" hash-for-method="getSingleCokkieInfo">getSingleCokkieInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="day3_project.getSingleHeader" class="method navigator-link" hash-for-method="getSingleHeaderInfo">getSingleHeaderInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="day3_project.getAllHeadersInfo" class="method navigator-link" hash-for-method="getallHeaders">getallHeaders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="day3_project.loggingDemo_AllInfo" class="method navigator-link" hash-for-method="logAllInfo">logAllInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="day3_project.loggingDemo_responseBody" class="method navigator-link" hash-for-method="logBodyResponse">logBodyResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="day3_project.loggingDemo_onlyCookies" class="method navigator-link" hash-for-method="logOnlyCookies">logOnlyCookies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="day3_project.loggingDemo_onlyHeaders" class="method navigator-link" hash-for-method="logOnlyHeaders">logOnlyHeaders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MySuite" title="day3_project.captureHeaders" class="method navigator-link" hash-for-method="testCookies">testCookies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MySuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,113 +176,416 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-MySuite" class="panel MySuite">
+          <div class="suite-MySuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">day4_project.tc_05_parsingJSONResponseData</span>
+              <img src="failed.png"/>
+              <span class="class-name">day3_project.captureCookies</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testJSONResponse">
-                  </a> <!-- testJSONResponse -->
-                  <span class="method-name">testJSONResponse</span>
+                  <a name="testCookies">
+                  </a> <!-- testCookies -->
+                  <span class="method-name">testCookies</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected cookie &quot;AEC&quot; was not &quot;AaJma5v_3QiF9ujwNoPB0o7U1kVMJ4CYGEOrv8XSCs7xCmeRHUilD80beA&quot;, was &quot;AaJma5vw-k80Qn0DYU3EvQWkili0RNYehw3WKJrD2i6ogk623MRPcFcYdQ&quot;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.cookie(ResponseSpecificationImpl.groovy:229)
+	at io.restassured.specification.ResponseSpecification$cookie$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:194)
+	at io.restassured.internal.ResponseSpecificationImpl.cookie(ResponseSpecificationImpl.groovy:250)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.cookie(ValidatableResponseOptionsImpl.java:158)
+	at day3_project.captureCookies.testCookies(captureCookies.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-MySuite-class-failed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day3_project.loggingDemo_AllInfo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logAllInfo">
+                  </a> <!-- logAllInfo -->
+                  <span class="method-name">logAllInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day3_project.loggingDemo_onlyHeaders</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOnlyHeaders">
+                  </a> <!-- logOnlyHeaders -->
+                  <span class="method-name">logOnlyHeaders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day3_project.captureHeaders</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCookies">
+                  </a> <!-- testCookies -->
+                  <span class="method-name">testCookies</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day3_project.getAllHeadersInfo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getallHeaders">
+                  </a> <!-- getallHeaders -->
+                  <span class="method-name">getallHeaders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day3_project.loggingDemo_responseBody</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logBodyResponse">
+                  </a> <!-- logBodyResponse -->
+                  <span class="method-name">logBodyResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day3_project.getSingleHeader</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSingleHeaderInfo">
+                  </a> <!-- getSingleHeaderInfo -->
+                  <span class="method-name">getSingleHeaderInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day3_project.getSingleCookieInfo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSingleCokkieInfo">
+                  </a> <!-- getSingleCokkieInfo -->
+                  <span class="method-name">getSingleCokkieInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day3_project.getAllCookieInfo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSingleCokkieInfo">
+                  </a> <!-- getSingleCokkieInfo -->
+                  <span class="method-name">getSingleCokkieInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day3_project.loggingDemo_onlyCookies</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOnlyCookies">
+                  </a> <!-- logOnlyCookies -->
+                  <span class="method-name">logOnlyCookies</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+          <div class="suite-MySuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">day3_project.PathAndQueryParameters</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PathQueryParams">
+                  </a> <!-- PathQueryParams -->
+                  <span class="method-name">PathQueryParams</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MySuite-class-passed -->
+        </div> <!-- panel MySuite -->
+        <div panel-name="test-xml-MySuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\dvrki\AppData\Local\Temp\testng-eclipse--1551933395\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\dvrki\Automation\RestAssured\project1RestAssured\src\test\java\day3_project\day3.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;MySuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MyTests&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;day4_project.tc_05_parsingJSONResponseData&quot;/&gt;
+      &lt;class name=&quot;day3_project.captureCookies&quot;/&gt;
+      &lt;class name=&quot;day3_project.captureHeaders&quot;/&gt;
+      &lt;class name=&quot;day3_project.getAllCookieInfo&quot;/&gt;
+      &lt;class name=&quot;day3_project.getAllHeadersInfo&quot;/&gt;
+      &lt;class name=&quot;day3_project.getSingleCookieInfo&quot;/&gt;
+      &lt;class name=&quot;day3_project.getSingleHeader&quot;/&gt;
+      &lt;class name=&quot;day3_project.loggingDemo_AllInfo&quot;/&gt;
+      &lt;class name=&quot;day3_project.loggingDemo_onlyCookies&quot;/&gt;
+      &lt;class name=&quot;day3_project.loggingDemo_onlyHeaders&quot;/&gt;
+      &lt;class name=&quot;day3_project.loggingDemo_responseBody&quot;/&gt;
+      &lt;class name=&quot;day3_project.PathAndQueryParameters&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- MyTests --&gt;
+&lt;/suite&gt; &lt;!-- MySuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-MySuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for MySuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">MyTests (11 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-MySuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for MySuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-MySuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for MySuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_MySuite');
+function tableData_MySuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(11);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testJSONResponse')
-data.setCell(0, 2, 'day4_project.tc_05_parsingJSONResponseData')
-data.setCell(0, 3, 1413);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'testCookies')
+data.setCell(0, 2, 'day3_project.captureCookies')
+data.setCell(0, 3, 3313);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCookies')
+data.setCell(1, 2, 'day3_project.captureHeaders')
+data.setCell(1, 3, 1860);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'logAllInfo')
+data.setCell(2, 2, 'day3_project.loggingDemo_AllInfo')
+data.setCell(2, 3, 1364);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'logBodyResponse')
+data.setCell(3, 2, 'day3_project.loggingDemo_responseBody')
+data.setCell(3, 3, 1351);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'logOnlyCookies')
+data.setCell(4, 2, 'day3_project.loggingDemo_onlyCookies')
+data.setCell(4, 3, 1349);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logOnlyHeaders')
+data.setCell(5, 2, 'day3_project.loggingDemo_onlyHeaders')
+data.setCell(5, 3, 1331);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'PathQueryParams')
+data.setCell(6, 2, 'day3_project.PathAndQueryParameters')
+data.setCell(6, 3, 1321);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getSingleCokkieInfo')
+data.setCell(7, 2, 'day3_project.getSingleCookieInfo')
+data.setCell(7, 3, 785);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getallHeaders')
+data.setCell(8, 2, 'day3_project.getAllHeadersInfo')
+data.setCell(8, 3, 769);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'getSingleCokkieInfo')
+data.setCell(9, 2, 'day3_project.getAllCookieInfo')
+data.setCell(9, 3, 769);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getSingleHeaderInfo')
+data.setCell(10, 2, 'day3_project.getSingleHeader')
+data.setCell(10, 3, 769);
+window.suiteTableData['MySuite']= { tableData: data, tableDiv: 'times-div-MySuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-MySuite">
+              </div> <!-- times-div-MySuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-MySuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for MySuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-MySuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-MySuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">day4_project.tc_05_parsingJSONResponseData</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">day3_project.captureCookies</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testJSONResponse</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCookies</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day3_project.captureHeaders</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCookies</span>
+                <span class="method-start">3323 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day3_project.getAllCookieInfo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getSingleCokkieInfo</span>
+                <span class="method-start">5185 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day3_project.getAllHeadersInfo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getallHeaders</span>
+                <span class="method-start">5957 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day3_project.getSingleCookieInfo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getSingleCokkieInfo</span>
+                <span class="method-start">6729 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day3_project.getSingleHeader</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getSingleHeaderInfo</span>
+                <span class="method-start">7516 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day3_project.loggingDemo_AllInfo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logAllInfo</span>
+                <span class="method-start">8286 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day3_project.loggingDemo_onlyCookies</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logOnlyCookies</span>
+                <span class="method-start">9656 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day3_project.loggingDemo_onlyHeaders</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logOnlyHeaders</span>
+                <span class="method-start">11007 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day3_project.loggingDemo_responseBody</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logBodyResponse</span>
+                <span class="method-start">12342 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">day3_project.PathAndQueryParameters</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">PathQueryParams</span>
+                <span class="method-start">13698 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

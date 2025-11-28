@@ -1,11 +1,12 @@
 package day4_project;
 
 import static io.restassured.RestAssured.given;
+
 import static org.hamcrest.Matchers.equalTo;
 
 import org.testng.annotations.Test;
 
-public class tc_01_parsingJSONResponseData {
+public class tc_01_parsingJSONResponseData  extends JsonServerApiTest{
 	
 	@Test
 	void testJSONResponse()

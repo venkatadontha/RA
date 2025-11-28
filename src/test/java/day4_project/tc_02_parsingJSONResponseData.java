@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
 
-public class tc_02_parsingJSONResponseData {
+public class tc_02_parsingJSONResponseData extends JsonServerApiTest{
 	
 	@Test
 	void testJSONResponse()
